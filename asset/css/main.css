@@ -1,0 +1,539 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/* Header */
+
+#header{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 100;
+}
+
+
+/*Container */
+
+.container{
+	display: flex;
+	justify-content: space-between;
+	padding: 32px 0;
+}
+
+
+
+.header__link{
+	text-decoration: none;
+}
+
+
+.logo{
+    max-width: 66px;
+}
+
+
+.nav__item{
+	display: inline-block;
+    margin-left: 56px;
+
+}
+
+.nav__link{
+	text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-family: 'Cabin';
+}
+
+
+
+/*banner*/
+
+.banner{
+	height: 958px;
+	background-repeat: no-repeat;
+	background-size: center;
+	background-position: center;
+	position: relative;
+	text-align: center;
+}
+
+
+.banner__container{
+	position: absolute;
+	top: 50%;
+	left: 0;
+	right: 0;
+	text-align: center;
+	transform: translateY(-50%);
+	-webkit-transform:translateY(-50%);
+}
+
+
+
+.banner__heading span{
+	font-size: 104px;
+    color: #d4a966;
+    display: block;
+    font-family: 'Herr Von Muellerhoff';
+    font-weight: 400;
+    text-transform: none;
+    letter-spacing: normal;
+    margin-bottom: 28px;
+
+}
+
+
+.banner__heading{
+     font-size: 47px;
+    color: #ffffff;
+    font-family: 'Source Sans Pro';
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    margin-bottom: 19px;
+}
+
+
+.banner__img{
+	
+}
+
+
+.banner__title{
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #ffffff;
+     font-family: 'Source Sans Pro';
+     font-weight: 700;
+     letter-spacing: 7px;
+}
+
+
+
+
+/*main */
+
+#main{
+
+}
+
+
+/*main-conatiner*/
+
+.main-container{
+	width: 1152px;
+	margin: 83px auto;
+	display: flex;
+}
+
+
+.main-box{
+	flex: 1;
+	text-align: center;
+	position: relative;
+}
+
+.box-conatainer{
+	 position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+    -webkit-transform: : translateY(-50%);
+}
+
+
+.box__heading span{
+	font-size: 104px;
+    color: #d4a966;
+    display: block;
+    font-family: 'Herr Von Muellerhoff';
+    font-weight: 400;
+    text-transform: none;
+    letter-spacing: normal;
+    margin: 28px 0;
+}
+
+
+.box__heading{
+
+	 font-size: 47px;
+    color: #3f3d3e;
+    font-family: 'Source Sans Pro';
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-weight: 900;
+    margin: 46px 0 30px 0;
+
+}
+
+.box-img{
+	max-height: 418px;
+}
+
+.box-img__img{
+	height: 100%;
+	margin-left: 25px;
+}
+
+
+.box__title span{
+	display: block;
+	font-size: 30px;
+    color: #9a9998;
+    font-family: 'OPTITimes-Roman';
+    padding: 14px 0;
+    line-height: normal;
+	
+
+}
+
+
+.box__title{
+	font-size: 16px;
+    color: #515150;
+    padding: 0 97px 0 72px;
+    font-family: 'Cabin';
+    line-height: 28px;
+    margin: 49px 0 0 0;
+}
+
+
+.box__about{
+	color: #c59d5f;
+	font-size: 15px;
+	 font-family: 'Cabin';
+	 font-weight: bold;
+	 text-transform: uppercase;
+	 display: inline-block;
+	 letter-spacing: 3px;
+	 border-bottom: 2px solid #c59d5f;
+	 margin: 15px 0;
+}
+
+
+
+/*Main banner*/
+
+.main-banner{
+	height: 614px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: center;
+	position: relative;
+}
+
+.main-banner__heading{
+	position: absolute;
+	top: 50%;
+	left: 0;
+	right: 0;
+	transform: translateY(-50%);
+	-webkit-transform:translateY(-50%);
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 47px;
+	font-family: 'Source Sans Pro';
+	font-weight: 900;
+	color: #ffffff;
+	letter-spacing: 7px;
+}
+
+
+.main-banner__heading span{
+	display: block;
+	font-size: 104px;
+	color: #d4a966;
+	font-family: 'Herr Von Muellerhoff';
+	text-transform: none;
+	margin-bottom: 30px;
+	font-weight: 400;
+	letter-spacing: normal;
+}
+
+
+
+
+
+.main-img-group{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 24px;
+}
+
+
+.main-img{
+	width: 276px;
+	height: 192px;
+}
+
+
+.main-image{
+	width: 100%;
+	height: 100%;
+}
+
+
+.box-group{
+	position: absolute;
+	top: 50%;
+	left: 0;
+	right: 0;
+	transform: translateY(-50%);
+	-webkit-transform:: translateY(-50%);
+	
+}
+
+.box-heading span{
+	display: block;
+	font-size: 104px;
+	color: #d4a966;
+	font-family: 'Herr Von Muellerhoff';
+	text-transform: none;
+	margin-bottom: 30px;
+	font-weight: 400;
+	letter-spacing: normal;
+}
+
+
+.box-heading{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 47px;
+	font-family: 'Source Sans Pro';
+	font-weight: 900;
+	color: #3f3d3e;
+	letter-spacing: 7px;
+	margin: 80px 0 42px 0;
+}
+
+
+.box-title-title span{
+	display: block;
+	font-size: 30px;
+    color: #9a9998;
+    font-family: 'OPTITimes-Roman';
+    line-height: normal;
+}
+
+.box-title-title {
+	font-size: 16px;
+    color: #515150;
+    font-family: 'Cabin';
+    line-height: 28px;
+    padding-left: 49px;
+    padding-right: 89px;
+}
+
+
+.box-memu{
+	display: inline-block;
+	font-size: 15px;
+	color: #c59d5f;
+	text-transform: uppercase;
+	margin-top: 15px;
+	margin-bottom: 20px;
+	font-family: 'Cabin';
+	 font-weight: bold;
+	 letter-spacing: 3px;
+	 border-bottom: 2px solid #c59d5f;
+}
+
+
+.box-content{
+	position: absolute;
+	top: 50%;
+	left: 0;
+	right: 0;
+	transform: translateY(-50%);
+	-webkit-transform:: translateY(-50%);
+}
+
+
+.box-content-heading span{
+	display: block;
+	font-size: 104px;
+	color: #d4a966;
+	font-family: 'Herr Von Muellerhoff';
+	text-transform: none;
+	margin-bottom: 30px;
+	font-weight: 400;
+	letter-spacing: normal;
+
+}
+
+.box-content-heading{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 47px;
+	font-family: 'Source Sans Pro';
+	font-weight: 900;
+	color: #3f3d3e;
+	letter-spacing: 7px;
+	margin: 80px 0 42px 0;
+
+}
+
+.content-title span{
+	display: block;
+	font-size: 30px;
+    color: #9a9998;
+    font-family: 'OPTITimes-Roman';
+    line-height: normal;
+}
+
+
+.content-title{
+	font-size: 16px;
+    color: #515150;
+    font-family: 'Source Sans Pro';
+	font-weight: normal;
+    line-height: 28px;
+    padding-left: 81px;
+    padding-right: 132px;
+
+}
+
+
+.box-content__title{
+	display: inline-block;
+	font-size: 15px;
+	color: #c59d5f;
+	text-transform: uppercase;
+	margin-top: 15px;
+	margin-bottom: 20px;
+	letter-spacing: 3px;
+	border-bottom: 2px solid #c59d5f;
+	 font-family: 'Cabin';
+	 font-weight: normal;
+}
+
+
+
+
+.main-content{
+	display: flex;
+	gap: 22px;
+}
+
+
+.content-group{
+	flex: 1;
+	width: 276px;
+	height: 409px;
+	overflow: hidden;
+}
+
+
+
+/*Main bottom*/
+.main-bottom{
+	background-color: #121012;
+	position: relative;
+}
+
+
+.main-cricle{
+	width: 62px;
+    height: 62px;
+    background-color: var(--while-color);
+    border-radius: 50%;
+    border: 1px solid var(--while-color);
+    position: absolute;
+    top: -15%;
+    left: 0;
+    right: 0;
+    transform: translateY(15%);
+    -webkit-transform: transLateY(15%);
+    margin: 0 auto;
+}
+
+
+.img-icon{
+	position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+    margin: 0 auto;
+    -webkit-transform: transLateY(-50%);
+}
+
+
+/*Main bottom*/
+
+.main-bottom{
+	background-color: #121012;
+	
+}
+
+
+.bottom-content{
+	width: 1152px;
+	display: flex;
+	margin: 0 auto;
+
+	
+}
+
+.bottom{
+	flex: 1;
+    margin: 82px 0;
+  
+
+}
+
+.bottom-heading{
+	margin-bottom: 35px;
+	font-size: 19px;
+	font-family: 'Maven Pro';
+	text-transform: uppercase;
+	color: #ffffff;
+}
+
+
+.bottom-item{
+	display: inline-block;
+	font-size: 17px;
+	min-width: 172px;
+	font-family: 'Gill Sans';
+	color: #ffffff;
+	margin-right: 18px;
+	line-height: 34px;
+}
+
+
+
+/*Footer*/
+
+#footer{
+	background-color: #1c1a1c;
+}
+
+.footer-container{
+	width: 1152px;
+	display: flex;
+	margin: 0 auto;
+	background-color: #1c1a1c;
+	padding: 32px 0;
+}
+
+
+.footer-left{
+	flex: 1;
+}
+
+
+.footer-right{
+	flex: 1;
+	text-align: end;
+}
+
+.footer-heading{
+	font-size: 15px;
+	color: #b3b3b3;
+	font-family: 'Gill Sans';
+}
